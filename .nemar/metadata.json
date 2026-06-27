@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Categorized Free Recall with Open-Loop Stimulation at Encoding",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a categorized free recall task with open-loop electrical brain stimulation during encoding. Participants studied semantically organized word lists (12 items from 3 categories, 4 words per category), performed arithmetic distraction tasks, and freely recalled words. Stimulation was delivered to hippocampal and entorhinal cortex electrodes during encoding on 20 of 25 lists, with detailed stimulation parameters documented. Data were collected across multiple clinical sites as part of a collaborative memory research initiative.",
-  "methods_description": "Participants performed a categorized free recall task consisting of three phases: (1) visual presentation of 12-word lists with semantic structure (4 words each from 3 categories), (2) arithmetic distraction task, and (3) free recall. Open-loop electrical stimulation was applied to single electrodes in hippocampus and entorhinal cortex during encoding on randomly selected lists (20 of 25), targeting alternating word pairs (6 of 12 words stimulated). Stimulation parameters included amplitude, pulse frequency, pulse width, pulse count, and electrode configuration (anode/cathode). Intracranial recordings were acquired using Blackrock and Medtronic systems with monopolar (referenced) and bipolar configurations.",
+  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a categorized free recall task with open-loop electrical brain stimulation during encoding. Participants studied semantically organized word lists (12 items from 3 categories, 4 words per category) followed by a distractor task and free recall. Stimulation was delivered to hippocampal and entorhinal cortex electrodes during encoding on 20 of 25 lists per session, with detailed stimulation parameters recorded for each trial.",
+  "methods_description": "Participants performed a categorized free recall task involving visual presentation of word lists, arithmetic distractor problems, and free recall. Intracranial recordings were obtained from multiple clinical sites. Open-loop electrical stimulation was applied to single electrodes in the hippocampus and entorhinal cortex during encoding on alternating word-pair blocks (6 of 12 words per list). Stimulation parameters included anode/cathode configuration, amplitude, pulse frequency, pulse width, and pulse count. Recordings were acquired using Blackrock (250 nV units) and Medtronic (0.1 µV units) systems.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,47 +15,34 @@
       "term": "intracranial electrophysiology"
     },
     {
-      "term": "iEEG"
-    },
-    {
       "term": "free recall"
     },
     {
       "term": "memory encoding"
     },
     {
-      "term": "electrical brain stimulation"
+      "term": "electrical stimulation"
     },
     {
-      "term": "open-loop stimulation"
+      "term": "hippocampus"
+    },
+    {
+      "term": "entorhinal cortex"
+    },
+    {
+      "term": "semantic memory"
     },
     {
       "term": "categorized recall"
     },
     {
-      "term": "semantic organization"
+      "term": "open-loop stimulation"
     },
     {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+      "term": "clinical neurophysiology"
     },
     {
-      "term": "Entorhinal Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018728"
-    },
-    {
-      "term": "Blackrock"
-    },
-    {
-      "term": "Medtronic"
-    },
-    {
-      "term": "multi-site"
-    },
-    {
-      "term": "arithmetic distraction"
+      "term": "multi-site study"
     }
   ],
   "related_identifiers": [
