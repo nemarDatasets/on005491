@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Categorized Free Recall with Open-Loop Stimulation at Encoding",
-  "description": "This dataset comprises intracranial electrophysiological recordings and behavioral data from a categorized free recall task with open-loop electrical brain stimulation during encoding. Participants studied semantically organized word lists (12 items from 3 categories, 4 words per category) followed by a distractor task and free recall. Stimulation was delivered to hippocampal and entorhinal cortex electrodes during encoding on 20 of 25 lists per session, with detailed stimulation parameters recorded for each trial.",
-  "methods_description": "Participants performed a categorized free recall task involving visual presentation of word lists, arithmetic distractor problems, and free recall. Intracranial recordings were obtained from multiple clinical sites. Open-loop electrical stimulation was applied to single electrodes in the hippocampus and entorhinal cortex during encoding on alternating word-pair blocks (6 of 12 words per list). Stimulation parameters included anode/cathode configuration, amplitude, pulse frequency, pulse width, and pulse count. Recordings were acquired using Blackrock (250 nV units) and Medtronic (0.1 µV units) systems.",
+  "description": "This dataset contains behavioral events and intracranial EEG recordings from a categorized free recall task with open-loop electrical stimulation applied during encoding. Participants studied semantically organized word lists, performed arithmetic distractor tasks, and then freely recalled the words. Stimulation was delivered to single electrodes in the hippocampus or entorhinal cortex during word encoding on a subset of trials, with data collected across multiple clinical sites in collaboration with the Computational Memory Lab at the University of Pennsylvania.",
+  "methods_description": "Participants studied lists of 12 words drawn from 25 semantic categories, arranged so each list contained 6 pairs of same-category words from 3 categories. After a distractor arithmetic task, participants freely recalled words. Open-loop electrical stimulation was delivered to a single electrode (hippocampus or entorhinal cortex) during encoding on alternating two-word blocks in 20 of 25 lists per session, with stimulation parameters (anode/cathode, amplitude, pulse frequency, pulse width, pulse count) recorded in behavioral event files. Intracranial recordings were obtained in monopolar and bipolar configurations using Blackrock and Medtronic recording systems.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,47 +12,36 @@
   },
   "keywords": [
     {
-      "term": "intracranial electrophysiology"
+      "term": "iEEG"
     },
     {
       "term": "free recall"
     },
     {
-      "term": "memory encoding"
-    },
-    {
       "term": "electrical stimulation"
     },
     {
-      "term": "hippocampus"
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "entorhinal cortex"
+      "term": "Entorhinal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018728"
     },
     {
-      "term": "semantic memory"
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "categorized recall"
-    },
-    {
-      "term": "open-loop stimulation"
-    },
-    {
-      "term": "clinical neurophysiology"
-    },
-    {
-      "term": "multi-site study"
+      "term": "intracranial electrodes"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005491",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005491",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -65,6 +54,11 @@
       "identifier": "10.18112/openneuro.ds005491.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005491",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
